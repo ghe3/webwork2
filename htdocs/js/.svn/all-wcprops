@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/system/!svn/ver/7107/branches/ghe3_dev/webwork2/htdocs/js
+END
+warn_handler.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/system/!svn/ver/6997/branches/ghe3_dev/webwork2/htdocs/js/warn_handler.js
+END
+java_init.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/system/!svn/ver/7074/branches/ghe3_dev/webwork2/htdocs/js/java_init.js
+END
+problem_grid.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/htdocs/js/problem_grid.js
+END
+dnd.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/htdocs/js/dnd.js
+END
+getInputTable.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/system/!svn/ver/6997/branches/ghe3_dev/webwork2/htdocs/js/getInputTable.js
+END
+show_hide.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/system/!svn/ver/6997/branches/ghe3_dev/webwork2/htdocs/js/show_hide.js
+END
+ajax_reload.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/system/!svn/ver/6997/branches/ghe3_dev/webwork2/htdocs/js/ajax_reload.js
+END
+form_builder.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/system/!svn/ver/7096/branches/ghe3_dev/webwork2/htdocs/js/form_builder.js
+END
+form_checker_hmwksets.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/system/!svn/ver/7096/branches/ghe3_dev/webwork2/htdocs/js/form_checker_hmwksets.js
+END
+color.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/htdocs/js/color.js
+END
+classlist_handlers.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/system/!svn/ver/6997/branches/ghe3_dev/webwork2/htdocs/js/classlist_handlers.js
+END
+hmwksets_handlers.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/system/!svn/ver/6997/branches/ghe3_dev/webwork2/htdocs/js/hmwksets_handlers.js
+END
+addOnLoadEvent.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/system/!svn/ver/6997/branches/ghe3_dev/webwork2/htdocs/js/addOnLoadEvent.js
+END
+mimic.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/system/!svn/ver/6997/branches/ghe3_dev/webwork2/htdocs/js/mimic.js
+END
+ww_applet_support.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/system/!svn/ver/7074/branches/ghe3_dev/webwork2/htdocs/js/ww_applet_support.js
+END
+tabber.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/system/!svn/ver/7096/branches/ghe3_dev/webwork2/htdocs/js/tabber.js
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/bin
+END
+check_modules.pl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/bin/check_modules.pl
+END
+timing_log_check.pl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/bin/timing_log_check.pl
+END
+wwdb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/bin/wwdb
+END
+delcourse
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/bin/delcourse
+END
+wwsh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/bin/wwsh
+END
+addcourse
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/bin/addcourse
+END
+NPL-update
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/bin/NPL-update
+END

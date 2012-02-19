@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/mathjax/MathJax.git/!svn/ver/676/extensions/TeX
+END
+HTML.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mathjax/MathJax.git/!svn/ver/612/extensions/TeX/HTML.js
+END
+mathchoice.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/mathjax/MathJax.git/!svn/ver/612/extensions/TeX/mathchoice.js
+END
+boldsymbol.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/mathjax/MathJax.git/!svn/ver/612/extensions/TeX/boldsymbol.js
+END
+unicode.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mathjax/MathJax.git/!svn/ver/612/extensions/TeX/unicode.js
+END
+newcommand.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/mathjax/MathJax.git/!svn/ver/612/extensions/TeX/newcommand.js
+END
+AMSsymbols.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/mathjax/MathJax.git/!svn/ver/676/extensions/TeX/AMSsymbols.js
+END
+autobold.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mathjax/MathJax.git/!svn/ver/612/extensions/TeX/autobold.js
+END
+noErrors.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mathjax/MathJax.git/!svn/ver/612/extensions/TeX/noErrors.js
+END
+AMSmath.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mathjax/MathJax.git/!svn/ver/612/extensions/TeX/AMSmath.js
+END
+noUndefined.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/mathjax/MathJax.git/!svn/ver/612/extensions/TeX/noUndefined.js
+END
+verb.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mathjax/MathJax.git/!svn/ver/612/extensions/TeX/verb.js
+END

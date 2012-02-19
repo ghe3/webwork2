@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/mathjax/MathJax.git/!svn/ver/676/config
+END
+default.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/mathjax/MathJax.git/!svn/ver/676/config/default.js
+END
+MMLorHTML.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/mathjax/MathJax.git/!svn/ver/676/config/MMLorHTML.js
+END
+TeX-AMS-MML_HTMLorMML-full.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mathjax/MathJax.git/!svn/ver/676/config/TeX-AMS-MML_HTMLorMML-full.js
+END
+TeX-AMS-MML_HTMLorMML.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mathjax/MathJax.git/!svn/ver/676/config/TeX-AMS-MML_HTMLorMML.js
+END
+Accessible-full.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mathjax/MathJax.git/!svn/ver/676/config/Accessible-full.js
+END
+Accessible.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/mathjax/MathJax.git/!svn/ver/676/config/Accessible.js
+END
+MML_HTMLorMML-full.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/mathjax/MathJax.git/!svn/ver/676/config/MML_HTMLorMML-full.js
+END
+MML_HTMLorMML.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/mathjax/MathJax.git/!svn/ver/676/config/MML_HTMLorMML.js
+END
+TeX-AMS_HTML-full.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/mathjax/MathJax.git/!svn/ver/676/config/TeX-AMS_HTML-full.js
+END
+TeX-AMS_HTML.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mathjax/MathJax.git/!svn/ver/676/config/TeX-AMS_HTML.js
+END

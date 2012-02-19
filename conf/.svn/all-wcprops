@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/system/!svn/ver/7107/branches/ghe3_dev/webwork2/conf
+END
+webwork.apache-config.dist
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/conf/webwork.apache-config.dist
+END
+global.conf.dist
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/conf/global.conf.dist
+END
+devel.apache2-config.dist
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/system/!svn/ver/6814/branches/ghe3_dev/webwork2/conf/devel.apache2-config.dist
+END
+webwork.apache2-config.dist
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/conf/webwork.apache2-config.dist
+END
+database.conf.dist
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/conf/database.conf.dist
+END

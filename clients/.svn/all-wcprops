@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/system/!svn/ver/7096/branches/ghe3_dev/webwork2/clients
+END
+bad_input.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/system/!svn/ver/6959/branches/ghe3_dev/webwork2/clients/bad_input.txt
+END
+renderProblem_rawoutput.pl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/system/!svn/ver/6872/branches/ghe3_dev/webwork2/clients/renderProblem_rawoutput.pl
+END
+checkProblem.pl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/system/!svn/ver/6959/branches/ghe3_dev/webwork2/clients/checkProblem.pl
+END
+renderProblem.pl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/system/!svn/ver/6959/branches/ghe3_dev/webwork2/clients/renderProblem.pl
+END
+webwork_soap_client.pl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/clients/webwork_soap_client.pl
+END
+webwork_xmlrpc_client.pl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/system/!svn/ver/7096/branches/ghe3_dev/webwork2/clients/webwork_xmlrpc_client.pl
+END
+check_problems_in_dir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/clients/check_problems_in_dir.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/clients/README
+END
+input.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/system/!svn/ver/7051/branches/ghe3_dev/webwork2/clients/input.txt
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/mathjax/MathJax.git/!svn/ver/676/extensions
+END
+tex2jax.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/mathjax/MathJax.git/!svn/ver/676/extensions/tex2jax.js
+END
+toMathML.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mathjax/MathJax.git/!svn/ver/676/extensions/toMathML.js
+END
+v1.0-warning.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mathjax/MathJax.git/!svn/ver/676/extensions/v1.0-warning.js
+END
+mml2jax.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/mathjax/MathJax.git/!svn/ver/676/extensions/mml2jax.js
+END
+jsMath2jax.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mathjax/MathJax.git/!svn/ver/612/extensions/jsMath2jax.js
+END
+MathMenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mathjax/MathJax.git/!svn/ver/676/extensions/MathMenu.js
+END
+MathZoom.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mathjax/MathJax.git/!svn/ver/612/extensions/MathZoom.js
+END
+FontWarnings.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mathjax/MathJax.git/!svn/ver/612/extensions/FontWarnings.js
+END

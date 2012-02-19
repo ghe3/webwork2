@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/system/!svn/ver/7131/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor
+END
+Scoring.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/system/!svn/ver/7051/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/Scoring.pm
+END
+GetTargetSetProblems.pm
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/GetTargetSetProblems.pm
+END
+Index.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/Index.pm
+END
+ProblemSetList.pm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/system/!svn/ver/7133/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetList.pm
+END
+FileManager.pm
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/FileManager.pm
+END
+UserList.pm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/system/!svn/ver/7133/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/UserList.pm
+END
+SetMaker.pm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/SetMaker.pm
+END
+StudentProgress.pm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/StudentProgress.pm
+END
+ShowAnswers.pm
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ShowAnswers.pm
+END
+Preflight.pm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/Preflight.pm
+END
+GetLibrarySetProblems.pm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/GetLibrarySetProblems.pm
+END
+SaveTargetSetProblems.pm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/SaveTargetSetProblems.pm
+END
+Compare.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/Compare.pm
+END
+SendMail.pm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/SendMail.pm
+END
+SetMaker2.pm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/system/!svn/ver/7051/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/SetMaker2.pm
+END
+PGProblemEditor.pm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/system/!svn/ver/7096/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/PGProblemEditor.pm
+END
+SetsAssignedToUser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/SetsAssignedToUser.pm
+END
+Stats.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/system/!svn/ver/7133/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/Stats.pm
+END
+ProblemSetDetail.pm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/system/!svn/ver/7133/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/ProblemSetDetail.pm
+END
+UserDetail.pm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator/Instructor/UserDetail.pm
+END

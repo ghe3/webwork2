@@ -1,0 +1,135 @@
+10
+
+dir
+684
+http://svn.github.com/mathjax/MathJax.git/jax/output/HTML-CSS/fonts/STIX
+http://svn.github.com/mathjax/MathJax.git
+
+
+
+2011-06-06T12:06:54.000000Z
+676
+davide.p..cervone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b7ec5dbf-4383-35cd-1313-ce57b7db7bff
+
+fontdata-beta.js
+file
+
+
+
+
+2011-05-11T18:58:09.000000Z
+1bb49df9cd772deff836ecb31f2b25fe
+2011-04-05T09:25:44.000000Z
+612
+davide.p..cervone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8067
+
+Variants
+dir
+
+IntegralsSm
+dir
+
+SizeThreeSym
+dir
+
+IntegralsD
+dir
+
+IntegralsUp
+dir
+
+IntegralsUpSm
+dir
+
+SizeTwoSym
+dir
+
+SizeFourSym
+dir
+
+IntegralsUpD
+dir
+
+NonUnicode
+dir
+
+SizeOneSym
+dir
+
+fontdata.js
+file
+
+
+
+
+2011-06-20T21:05:30.000000Z
+8da366bb3422eb76137d5877e1ab6c7c
+2011-06-06T12:06:54.000000Z
+676
+davide.p..cervone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+33862
+
+General
+dir
+
+SizeFiveSym
+dir
+

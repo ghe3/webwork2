@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/system/!svn/ver/6966/branches/ghe3_dev/webwork2/lib/WeBWorK/PG
+END
+Local.pm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/system/!svn/ver/6966/branches/ghe3_dev/webwork2/lib/WeBWorK/PG/Local.pm
+END
+Remote.pm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WeBWorK/PG/Remote.pm
+END

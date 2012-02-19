@@ -1,0 +1,12 @@
+K 13
+svn:externals
+V 50
+mathjax http://svn.github.com/mathjax/MathJax.git
+
+K 13
+svn:mergeinfo
+V 120
+/branches/dg_dev/webwork2/htdocs:6472-6760
+/branches/gage_dev/webwork2/htdocs:6299-6772
+/trunk/webwork2/htdocs:6812-7106
+END

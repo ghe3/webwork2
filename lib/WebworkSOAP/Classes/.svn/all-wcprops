@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/system/!svn/ver/7107/branches/ghe3_dev/webwork2/lib/WebworkSOAP/Classes
+END
+UserSet.pm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WebworkSOAP/Classes/UserSet.pm
+END
+GlobalSet.pm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WebworkSOAP/Classes/GlobalSet.pm
+END

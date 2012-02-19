@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/system/!svn/ver/7107/branches/ghe3_dev/webwork2/htdocs
+END
+crossdomain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/htdocs/crossdomain.xml
+END
+site_info.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/htdocs/site_info.txt
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/htdocs/applets/geogebra_stable/unsigned
+END
+geogebra_properties.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/htdocs/applets/geogebra_stable/unsigned/geogebra_properties.jar
+END
+geogebra.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/htdocs/applets/geogebra_stable/unsigned/geogebra.jar
+END
+geogebra_export.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/htdocs/applets/geogebra_stable/unsigned/geogebra_export.jar
+END
+geogebra_gui.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/htdocs/applets/geogebra_stable/unsigned/geogebra_gui.jar
+END
+geogebra_main.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/htdocs/applets/geogebra_stable/unsigned/geogebra_main.jar
+END
+geogebra_cas.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/htdocs/applets/geogebra_stable/unsigned/geogebra_cas.jar
+END

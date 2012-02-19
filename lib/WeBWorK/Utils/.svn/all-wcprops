@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/system/!svn/ver/7107/branches/ghe3_dev/webwork2/lib/WeBWorK/Utils
+END
+Grades.pm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WeBWorK/Utils/Grades.pm
+END
+Tasks.pm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/Utils/Tasks.pm
+END
+CourseIntegrityCheck.pm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WeBWorK/Utils/CourseIntegrityCheck.pm
+END
+CourseManagement.pm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/system/!svn/ver/6959/branches/ghe3_dev/webwork2/lib/WeBWorK/Utils/CourseManagement.pm
+END

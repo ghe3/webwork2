@@ -1,0 +1,101 @@
+################################################################################
+# WeBWorK Online Homework Delivery System
+# Copyright © 2000-2010 The WeBWorK Project, http://openwebwork.sf.net/
+# 
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of either: (a) the GNU General Public License as published by the
+# Free Software Foundation; either version 2, or (at your option) any later
+# version, or (b) the "Artistic License" which comes with this package.
+# 
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+# Artistic License for more details.
+################################################################################
+
+# This is an Apache configuration file suitable for use when doing development
+# on the WeBWorK 2 system. This setup allows each developer to run an
+# independent Apache server under their own UID, using their own working copy of
+# the WeBWorK code. The configuration is split into three parts:
+# 
+# The first part is a site-specific (but user-indepenent) file named
+# devel-site.apache-config. It contains directives that are common to all
+# development servers on the same host. The site administrator can chose to
+# maintain a single copy of this file and have all developers reference it in a
+# central location.
+# 
+# The second part is the stock webwork.apache-config file that is used for
+# normal installations. Customize this file, setting the $webwork_url,
+# $webwork_dir, $pg_dir, etc. appropriatly for your development server.
+# 
+# The third part is this file. It contains the user-specific directives that are
+# specific to each developer's server.
+
+################################################################################
+# Include site-specific configuration
+################################################################################
+
+Include /path/to/webwork2/conf/devel-site.apache2-config
+
+################################################################################
+# Include WeBWorK configuration
+################################################################################
+
+Include /path/to/webwork2/conf/webwork.apache2-config
+
+################################################################################
+# Perform user-specific configuration
+################################################################################
+
+<Perl>
+
+use Apache2::ServerUtil;
+use Apache2::ServerRec;
+
+my $user_name  = (getpwuid $>)[0];
+my $group_name = (getgrgid $))[0];
+my $host_name  = Apache2::ServerUtil->server->server_hostname;
+
+# It will listen on a port equal to the UID of the user who starts it +8000.
+# This effectively picks a port between 9000 and 9999 since UID's are >=1000.
+$Listen = 8001; # choose ports between 8001 and  8010     
+
+# The server will run as the user who starts it.
+$User  = $user_name;
+$Group = $group_name;
+
+# Locations of some files.
+$LockFile = "$WeBWorK::SeedCE{webwork_dir}/logs/httpd.lock";
+$PidFile  = "$WeBWorK::SeedCE{webwork_dir}/logs/httpd.pid";
+$ErrorLog = "$WeBWorK::SeedCE{webwork_dir}/logs/httpd-error.log";
+
+# Control the number of child processes and how long they stick around.
+$StartServers        = 2;
+$MinSpareServers     = 2;
+$MaxSpareServers     = 2;
+$MaxClients          = 5;
+$MaxRequestsPerChild = 100;
+
+# The document root doesn't really matter, but it has to be set, so we set it to
+# the htdocs directory.
+$DocumentRoot = $WeBWorK::SeedCE{webwork_htdocs_dir};
+
+# Email address of server administator.
+$ServerAdmin = "$user_name\@$host_name";
+
+print "\nStarting apache server with host name $host_name\n";
+print "user name $user_name\n";
+print "group_name $group_name\n";
+print "port $Listen\n";
+print "uid " . ($>)."\n";
+</Perl>
+
+################################################################################
+# Stick any local additions down here
+################################################################################
+
+<Perl>
+
+
+
+</Perl>

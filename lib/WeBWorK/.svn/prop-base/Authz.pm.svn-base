@@ -1,0 +1,19 @@
+K 13
+svn:eol-style
+V 6
+native
+K 12
+svn:keywords
+V 23
+Author Date Id Revision
+K 13
+svn:mergeinfo
+V 162
+/branches/dg_dev/webwork2/lib/WeBWorK/Authz.pm:6472-6760
+/branches/gage_dev/webwork2/lib/WeBWorK/Authz.pm:6299-6772
+/trunk/webwork2/lib/WeBWorK/Authz.pm:6812-7106
+K 13
+svn:mime-type
+V 11
+text/x-perl
+END

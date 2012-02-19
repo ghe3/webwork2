@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/lib/Apache
+END
+AuthenWeBWorK.pm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/lib/Apache/AuthenWeBWorK.pm
+END
+WeBWorK.pm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/Apache/WeBWorK.pm
+END

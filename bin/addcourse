@@ -1,0 +1,313 @@
+#!/usr/bin/env perl
+################################################################################
+# WeBWorK Online Homework Delivery System
+# Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+# $CVSHeader: webwork2/bin/addcourse,v 1.20 2006/12/09 03:29:56 sh002i Exp $
+# 
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of either: (a) the GNU General Public License as published by the
+# Free Software Foundation; either version 2, or (at your option) any later
+# version, or (b) the "Artistic License" which comes with this package.
+# 
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+# Artistic License for more details.
+################################################################################
+
+=head1 NAME
+
+addcourse - add a course
+
+=head1 SYNOPSIS
+
+ addcourse [options] COURSEID
+
+=head1 DESCRIPTION
+
+Add a course to the courses directory. The required directories will be created.
+Optionally, a database can be populated with users. Also, one or more users can
+be granted professor privileges.
+
+=head1 OPTIONS
+
+=over
+
+=item B<--db-layout>=I<LAYOUT>
+
+The specified database layout will be used in place of the default specified in
+F<global.conf>.
+
+=item B<--users>=I<FILE>
+
+The users listed in the comma-separated text file I<FILE> will be added to the
+user list of the new course. The format of this file is the same as user lists
+exported from WeBWorK.
+
+=item B<--professors>=I<USERID>[,I<USERID>]...
+
+Each I<USERID>, if it is present in the new course's user list, will be granted
+professor privileges (i.e. a permission level of 10). Requires B<--users>.
+
+=item B<--templates-from>=I<COURSEID>
+
+If specified, the contents of the specified course's templates directory are
+used to populate the new course's templates directory.
+
+=item I<COURSEID>
+
+The name of the course to create.
+
+=back
+
+=cut
+
+BEGIN {
+	# hide arguments (there could be passwords there!)
+	$0 = "$0";
+}
+
+use strict;
+use warnings;
+use Getopt::Long;
+
+
+BEGIN {
+	die "WEBWORK_ROOT not found in environment.\n"
+		unless exists $ENV{WEBWORK_ROOT};
+	  my $webwork_dir = $ENV{WEBWORK_ROOT};
+	  print "addcourse:  WeBWorK root directory set to $webwork_dir\n";
+
+	# link to WeBWorK code libraries
+      eval "use lib '$webwork_dir/lib'"; die $@ if $@;
+      eval "use WeBWorK::CourseEnvironment"; die $@ if $@;
+
+		
+}
+
+our $webwork_dir = $ENV{WEBWORK_ROOT};
+
+
+BEGIN { $main::VERSION = "2.4"; }  #hack to set version
+
+
+
+
+# link to WeBWorK code libraries
+eval "use lib '$webwork_dir/lib'"; die $@ if $@;
+eval "use WeBWorK::CourseEnvironment"; die $@ if $@;
+
+#################################################################
+# The folloinwg code reads global.conf and extracts the remaining configuration
+# variables. There is no need to modify it.
+#################################################################
+
+# link to WeBWorK code libraries
+eval "use lib '$webwork_dir/lib'"; die $@ if $@;
+eval "use WeBWorK::CourseEnvironment"; die $@ if $@;
+
+# grab course environment (by reading webwork2/conf/global.conf)
+my $ce = new WeBWorK::CourseEnvironment({ webwork_dir => $webwork_dir });
+
+#  set important configuration variables (from global.conf)
+
+my $webwork_url = $ce->{webwork_url};                    # e.g.  /webwork2
+my $pg_dir = $ce->{pg_dir};                              # e.g.  /opt/webwork/pg         
+
+#################################################################
+# report server setup when child process starts up -- for example when restarting the server
+#################################################################
+print "addcourse:  WeBWorK server is starting\n";
+print "addcourse:  WeBWorK root directory set to $webwork_dir in webwork2/conf/webwork.apache2-config\n";
+print "addcourse:  The following locations and urls are set in webwork2/conf/global.conf\n";
+print "addcourse:  PG root directory set to $pg_dir\n";
+print "addcourse:  WeBWorK server userID is ", $ce->{server_userID}, "\n";
+print "addcourse:  WeBWorK server groupID is ", $ce->{server_groupID}, "\n";
+print "addcourse:  The webwork url on this site is ", $ce->{server_root_url},"$webwork_url\n";
+
+
+# link to PG code libraries
+eval "use lib '$pg_dir/lib'"; die $@ if $@;
+
+eval q{
+use WeBWorK::CourseEnvironment;
+use WeBWorK::DB;
+use WeBWorK::File::Classlist;
+use WeBWorK::Utils qw(runtime_use readFile cryptPassword);
+use WeBWorK::Utils::CourseManagement qw(addCourse deleteCourse listCourses);
+}; die $@ if $@;
+
+sub usage {
+	print STDERR "usage: $0 [options] COURSEID\n";
+	print STDERR "Options:\n";
+	print STDERR "  [--db-layout=LAYOUT]\n";
+	print STDERR "  [--users=FILE [--professors=USERID[,USERID]...] ]\n";
+	exit;
+}
+
+sub usage_error {
+	print STDERR "$0: @_\n";
+	usage();
+}
+
+my $dbLayout = "";
+my $sql_host = "";
+my $sql_port = "";
+my $sql_user = "";
+my $sql_pass = "";
+my $sql_db = "";
+my $sql_wwhost = "";
+my $globalUserID = "";
+my $users = "";
+my @professors = ();
+my $templates_from = "";
+
+##### get command-line options #####
+
+GetOptions(
+	"db-layout=s" => \$dbLayout,
+	"sql-host=s" => \$sql_host,
+	"sql-port=s" => \$sql_port,
+	"sql-user=s" => \$sql_user,
+	"sql-pass=s" => \$sql_pass,
+	"sql-db=s" => \$sql_db,
+	"sql-wwhost=s" => \$sql_wwhost,
+	"global-user=s" => \$globalUserID,
+	"users=s" => \$users,
+	"professors=s" => \@professors,
+	"templates-from=s" => \$templates_from,
+);
+my %professors = map { $_ => 1 } map { split /,/ } @professors;
+my $courseID = shift;
+
+##### perform sanity checks #####
+
+usage_error("must specify COURSEID.") unless $courseID;
+
+# bring up a minimal course environment
+$ce = WeBWorK::CourseEnvironment->new({
+	webwork_dir => $ENV{WEBWORK_ROOT},
+	courseName => $courseID
+});
+
+if ($dbLayout) {
+	die "Database layout $dbLayout does not exist in the course environment.",
+			" (It must be defined in global.conf.)\n"
+		unless exists $ce->{dbLayouts}->{$dbLayout};
+} else {
+	# use default value
+	$dbLayout = $ce->{dbLayoutName};
+}
+
+usage_error("can't specify --professors without also specifying --users.")
+	if @professors and not $users;
+
+##### set up parameters to pass to addCourse() #####
+
+my %courseOptions = ( dbLayoutName => $dbLayout );
+
+# this is kinda left over from when we had 'gdbm' and 'sql' database layouts
+# below this line, we would grab values from getopt and put them in this hash
+# but for now the hash can remain empty
+my %dbOptions;
+
+my @users;
+if ($users) {
+	# this is a hack to create records without bringing up a DB object
+	#my $db = WeBWorK::DB->new($ce->{dbLayouts}->{$dbLayout});
+	my $userClass = $ce->{dbLayouts}->{$dbLayout}->{user}->{record};
+	my $passwordClass = $ce->{dbLayouts}->{$dbLayout}->{password}->{record};
+	my $permissionClass = $ce->{dbLayouts}->{$dbLayout}->{permission}->{record};
+	
+	runtime_use($userClass);
+	runtime_use($passwordClass);
+	runtime_use($permissionClass);
+	
+	# Default status is enrolled -- fetch abbreviation for enrolled
+	my $default_status_abbrev = $ce->{statuses}->{Enrolled}->{abbrevs}->[0];
+	
+	# default permission level
+	my $default_permission_level = $ce->{default_permission_level};
+	
+	my @classlist = parse_classlist($users);
+	foreach my $record (@classlist) {
+		my %record = %$record;
+		my $user_id = $record{user_id};
+		
+		# set default status is status field is "empty"
+		$record{status} = $default_status_abbrev
+			unless defined $record{status} and $record{status} ne "";
+		
+		# set password from student ID if password field is "empty"
+		if (not defined $record{password} or $record{password} eq "") {
+			if (defined $record{student_id} and $record{student_id} ne "") {
+				# crypt the student ID and use that
+				$record{password} = cryptPassword($record{student_id});
+			} else {
+				# an empty password field in the database disables password login
+				$record{password} = "";
+			}
+		}
+		
+		# set default permission level if pedefault_permission_levelrmission level is "empty"
+		if (not defined $record{status} and $record{status} ne "") {
+			if (exists $professors{$user_id}) {
+				$record{permission} = $ce->{userRoles}{professor}; # FIXME hardcoded role name is bad
+			} else {
+				$record{permission} = $default_permission_level;
+			}
+		}
+		
+		my $User = $userClass->new(%record);
+		my $PermissionLevel = $permissionClass->new(user_id => $user_id, permission => $record{permission});
+		my $Password = $passwordClass->new(user_id => $user_id, password => $record{password});
+		
+		if (exists $record{permission}) {
+			$PermissionLevel->permission($record{permission});
+			delete $professors{$user_id};
+		} elsif (exists $professors{$user_id}) {
+			$PermissionLevel->permission(10);
+			delete $professors{$user_id};
+		}
+		
+		if (exists $record{password}) {
+			$Password->password($record{password});
+		}
+		
+		push @users, [ $User, $Password, $PermissionLevel ];
+	}
+	
+	if (my @ids = keys %professors) {
+		print STDERR "warning: @ids not in imported user list.\n";
+	}
+}
+
+my %optional_arguments;
+if ($templates_from ne "") {
+	$optional_arguments{templatesFrom} = $templates_from;
+}
+
+##### call addCourse(), handle errors #####
+
+eval {
+	addCourse(
+		courseID      => $courseID,
+		ce            => $ce,
+		courseOptions => \%courseOptions,
+		dbOptions     => \%dbOptions,
+		users         => \@users,
+		%optional_arguments,
+	);
+};
+
+if ($@) {
+	my $error = $@;
+	print STDERR "$error\n";
+	exit;
+}
+
+=head1 AUTHOR
+
+Written by Sam Hathaway, hathaway at users.sourceforge.net.
+
+=cut

@@ -1,0 +1,324 @@
+################################################################################
+# WeBWorK Online Homework Delivery System
+# Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+# $CVSHeader: webwork2/conf/devel-site.apache-config.dist,v 1.7 2006/09/01 14:16:36 sh002i Exp $
+# 
+# This program is free software; you can redistribute it and/or modify it under
+# the terms of either: (a) the GNU General Public License as published by the
+# Free Software Foundation; either version 2, or (at your option) any later
+# version, or (b) the "Artistic License" which comes with this package.
+# 
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+# Artistic License for more details.
+################################################################################
+
+# This file contains the site-specific (but user-independent) directives used
+# in the configuration of Apache servers for WeBWorK development. See the file
+# devel.apache-config for more information.
+# 
+# Configure this file to match your main Apache configuration file, usually
+# apache.conf or httpd.conf. This file is based on the slightly-modified
+# httpd.conf as installed on devel.webwork.rochester.edu.
+
+#
+# Based upon the NCSA server configuration files originally by Rob McCool.
+#
+# This is the main Apache server configuration file.  It contains the
+# configuration directives that give the server its instructions.
+# See <URL:http://httpd.apache.org/docs/2.0/> for detailed information about
+# the directives.
+#
+# Do NOT simply read the instructions in here without understanding
+# what they do.  They're here only as hints or reminders.  If you are unsure
+# consult the online docs. You have been warned.  
+#
+# The configuration directives are grouped into three basic sections:
+#  1. Directives that control the operation of the Apache server process as a
+#     whole (the 'global environment').
+#  2. Directives that define the parameters of the 'main' or 'default' server,
+#     which responds to requests that aren't handled by a virtual host.
+#     These directives also provide default values for the settings
+#     of all virtual hosts.
+#  3. Settings for virtual hosts, which allow Web requests to be sent to
+#     different IP addresses or hostnames and have them handled by the
+#     same Apache server process.
+#
+
+
+ServerRoot "/usr/local"
+# Listen  ## --- set in devel.apache2-config
+
+### Various default settings
+Timeout 600
+KeepAlive On
+MaxKeepAliveRequests 100
+KeepAliveTimeout 10
+UseCanonicalName On
+AccessFileName .htaccess
+ServerTokens Prod
+ServerSignature Off
+HostnameLookups Off
+
+#ErrorLog  # set in devel.apache2-config
+LogLevel warn
+#LogLevel info
+
+#ServerAdmin # set in devel.apache2-config
+# ServerName # set in devel.apache2-config
+#DocumentRoot # set in devel.apache2-config
+
+
+LoadModule authn_file_module libexec/apache22/mod_authn_file.so
+LoadModule authn_dbm_module libexec/apache22/mod_authn_dbm.so
+LoadModule authn_anon_module libexec/apache22/mod_authn_anon.so
+LoadModule authn_default_module libexec/apache22/mod_authn_default.so
+LoadModule authn_alias_module libexec/apache22/mod_authn_alias.so
+LoadModule authz_host_module libexec/apache22/mod_authz_host.so
+LoadModule authz_groupfile_module libexec/apache22/mod_authz_groupfile.so
+LoadModule authz_user_module libexec/apache22/mod_authz_user.so
+LoadModule authz_dbm_module libexec/apache22/mod_authz_dbm.so
+LoadModule authz_owner_module libexec/apache22/mod_authz_owner.so
+LoadModule authz_default_module libexec/apache22/mod_authz_default.so
+LoadModule auth_basic_module libexec/apache22/mod_auth_basic.so
+LoadModule auth_digest_module libexec/apache22/mod_auth_digest.so
+LoadModule file_cache_module libexec/apache22/mod_file_cache.so
+LoadModule cache_module libexec/apache22/mod_cache.so
+LoadModule disk_cache_module libexec/apache22/mod_disk_cache.so
+LoadModule dumpio_module libexec/apache22/mod_dumpio.so
+LoadModule include_module libexec/apache22/mod_include.so
+LoadModule filter_module libexec/apache22/mod_filter.so
+LoadModule charset_lite_module libexec/apache22/mod_charset_lite.so
+LoadModule deflate_module libexec/apache22/mod_deflate.so
+#LoadModule ldap_module libexec/apache22/mod_ldap.so
+LoadModule log_config_module libexec/apache22/mod_log_config.so
+LoadModule logio_module libexec/apache22/mod_logio.so
+LoadModule env_module libexec/apache22/mod_env.so
+LoadModule mime_magic_module libexec/apache22/mod_mime_magic.so
+LoadModule cern_meta_module libexec/apache22/mod_cern_meta.so
+LoadModule expires_module libexec/apache22/mod_expires.so
+LoadModule headers_module libexec/apache22/mod_headers.so
+#LoadModule usertrack_module libexec/apache22/mod_usertrack.so
+LoadModule unique_id_module libexec/apache22/mod_unique_id.so
+LoadModule setenvif_module libexec/apache22/mod_setenvif.so
+LoadModule version_module libexec/apache22/mod_version.so
+LoadModule ssl_module libexec/apache22/mod_ssl.so
+LoadModule mime_module libexec/apache22/mod_mime.so
+#LoadModule dav_module libexec/apache22/mod_dav.so
+LoadModule status_module libexec/apache22/mod_status.so
+LoadModule autoindex_module libexec/apache22/mod_autoindex.so
+LoadModule asis_module libexec/apache22/mod_asis.so
+LoadModule info_module libexec/apache22/mod_info.so
+LoadModule cgi_module libexec/apache22/mod_cgi.so
+#LoadModule dav_fs_module libexec/apache22/mod_dav_fs.so
+LoadModule vhost_alias_module libexec/apache22/mod_vhost_alias.so
+LoadModule negotiation_module libexec/apache22/mod_negotiation.so
+LoadModule dir_module libexec/apache22/mod_dir.so
+LoadModule imagemap_module libexec/apache22/mod_imagemap.so
+LoadModule actions_module libexec/apache22/mod_actions.so
+LoadModule alias_module libexec/apache22/mod_alias.so
+LoadModule rewrite_module libexec/apache22/mod_rewrite.so
+LoadModule perl_module libexec/apache22/mod_perl.so
+LoadModule php5_module        libexec/apache22/libphp5.so
+#LoadModule limitipconn_module libexec/apache22/mod_limitipconn.so
+LoadModule apreq_module libexec/apache22/mod_apreq2.so
+#PerlModule Apache::compat
+
+
+#ServerAdmin #set in webwork
+#ServerName hosted2.webwork.rochester.edu
+DocumentRoot "/opt/htdocs"
+
+
+### Real-time info on requests and configuration
+
+<Location /server-status>
+    SetHandler server-status
+    Order deny,allow
+    Deny from all
+    Allow from 128.151.231.
+</Location>
+
+ExtendedStatus On
+
+<Location /server-info>
+    SetHandler server-info
+    Order deny,allow
+    Deny from all
+    Allow from 128.151.231.
+</Location>
+
+#ww# add mod_perl status handler
+<Location /perl-status>
+    SetHandler perl-script
+    PerlResponseHandler Apache2::Status
+    PerlSetVar StatusOptionsAll On
+    Order deny,allow
+    Deny from all
+    Allow from localhost
+</Location>
+
+
+
+
+
+<Directory />
+    AllowOverride None
+    Order deny,allow
+    Deny from all
+</Directory>
+
+Alias /phpmyadmin/ "/usr/local/www/phpMyAdmin/"
+<Directory "/usr/local/www/phpMyAdmin/">
+   Options none
+   AllowOverride Limit
+
+   Order Deny,Allow
+   Deny from all
+   Allow from 127.0.0.1 128.151.231.243 128.151.231.8
+   DirectoryIndex index.php index.html index.htm
+   AddType application/x-httpd-php .php
+   AddType application/x-httpd-php-source .phps
+</Directory>
+
+<Directory "/opt/htdocs">
+    Options FollowSymLinks
+    #AllowOverride AuthConfig 
+    AllowOverride None
+    Order allow,deny
+    Allow from all
+</Directory>
+
+<Directory "/opt/htdocs/downloads">
+    Options Indexes FollowSymLinks
+    AllowOverride AuthConfig 
+    Order allow,deny
+    Allow from all
+</Directory>
+
+<Directory "/opt/htdocs/moodle">
+   <IfModule php5_module>
+      DirectoryIndex index.php index.html index.htm
+      AddType application/x-httpd-php .php
+      AddType application/x-httpd-php-source .phps
+   </IfModule>
+</Directory>
+
+<IfModule dir_module>
+    DirectoryIndex index.html index.htm
+</IfModule>
+
+<FilesMatch "^\.ht">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</FilesMatch>
+
+# prevent (un)intentional DoS attacks with CPU-intensive requests 
+<IfModule limitipconn_module>
+    <Directory /opt/webwork/webwork2>
+       MaxConnPerIP 2
+       NoIPLimit text/css
+       NoIPLimit image/*
+       NoIPLimit application/java-archive
+       NoIPLimit application/java-serialized-object
+       NoIPLimit application/java-vm
+       NoIPLimit application/javascript
+       NoIPLimit application/json
+    </Directory>
+</IfModule>
+
+
+<IfModule log_config_module>
+    LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+    LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" iplimited
+    # CustomLog "logs/access_log" combined
+    # log requests that were rejected due to throttling
+    # CustomLog "logs/access_log_throttled" combined env=LIMITIP
+</IfModule>
+
+<IfModule alias_module>
+    # Redirect permanent /foo http://www.example.com/bar
+    # Alias /webpath /full/filesystem/path
+    # requested by Fuzzy Rogers <fuzzy@math.ucsb.edu>
+    Redirect permanent /webwork_system_html/docs/docs/pglanguage/availablefunctions.html http://webwork.maa.org/wiki/Available_Functions
+    Redirect permanent /docs/docs/pglanguage/availableFunctions.html http://webwork.maa.org/wiki/Available_Functions
+</IfModule>
+
+DefaultType text/plain
+
+<IfModule mime_module>
+    TypesConfig etc/apache22/mime.types
+    AddType application/x-compress .Z
+    AddType application/x-gzip .gz .tgz
+    AddHandler cgi-script .cgi
+    #AddType text/html .shtml
+    #AddOutputFilter INCLUDES .shtml
+</IfModule>
+
+#### Supplemental configuration
+
+
+
+### Fancy directory listings
+#Include etc/apache22/extra/httpd-autoindex.conf
+
+
+
+
+############################################################
+# we're not using https on the development sites
+############################################################
+
+
+
+# 
+# ### Virtual hosts
+# #NameVirtualHost *:443
+# 
+# <VirtualHost *:80>
+#   Redirect permanent / https://hosted2.webwork.rochester.edu/
+# </VirtualHost>
+# 
+# ### Secure (SSL/TLS) connections
+# Listen hosted2.webwork.rochester.edu:9118
+# AddType application/x-x509-ca-cert .crt
+# AddType application/x-pkcs7-crl    .crl
+# SSLPassPhraseDialog  builtin
+# SSLSessionCache        "shmcb:/var/run/ssl_scache(512000)"
+# SSLSessionCacheTimeout  300
+# SSLMutex  "file:/var/run/ssl_mutex"
+# 
+# <VirtualHost *:443>
+#   ServerName hosted2.webwork.rochester.edu
+#   ServerAlias hosted2.webwork localhost
+#   SSLEngine on
+#   SSLCipherSuite ALL:!ADH:!EXPORT56:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP:+eNULL
+#   SSLCertificateFile /opt/webwork/ssl/ssl.crt/server.crt
+#   SSLCertificateKeyFile /opt/webwork/ssl/ssl.key/server.key
+#   # for browsers (e.g. Safari) that can't authenticate GoDaddy's certificate
+#   SSLCertificateChainFile /opt/webwork/ssl/gd_bundle.crt
+#   #SSLCACertificatePath "/usr/local/etc/apache22/ssl.crt"
+# 
+#    Include /opt/webwork/webwork2/conf/webwork.apache2-config
+#  
+#   <FilesMatch "\.(cgi|shtml|phtml|php)$">
+#     SSLOptions +StdEnvVars
+#   </FilesMatch>
+#   <Directory "/usr/local/www/apache22/cgi-bin">
+#     SSLOptions +StdEnvVars
+#   </Directory>
+#   BrowserMatch ".*MSIE.*" \
+#     nokeepalive ssl-unclean-shutdown \
+#     downgrade-1.0 force-response-1.0
+# </VirtualHost>                                  
+# 
+# <IfModule ssl_module>
+# SSLRandomSeed startup builtin
+# SSLRandomSeed connect builtin
+# </IfModule>
+
+#Include etc/apache22/Includes/*.conf
+
+

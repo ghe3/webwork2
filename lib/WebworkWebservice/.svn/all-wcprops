@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/system/!svn/ver/7096/branches/ghe3_dev/webwork2/lib/WebworkWebservice
+END
+LibraryActions.pm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/system/!svn/ver/7096/branches/ghe3_dev/webwork2/lib/WebworkWebservice/LibraryActions.pm
+END
+MathTranslators.pm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WebworkWebservice/MathTranslators.pm
+END
+RenderProblem.pm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/system/!svn/ver/6999/branches/ghe3_dev/webwork2/lib/WebworkWebservice/RenderProblem.pm
+END

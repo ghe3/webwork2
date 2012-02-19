@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/system/!svn/ver/7131/branches/ghe3_dev/webwork2/lib/WeBWorK
+END
+Authen.pm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/system/!svn/ver/6999/branches/ghe3_dev/webwork2/lib/WeBWorK/Authen.pm
+END
+CourseEnvironment.pm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WeBWorK/CourseEnvironment.pm
+END
+DB.pm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/lib/WeBWorK/DB.pm
+END
+PG.pm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/lib/WeBWorK/PG.pm
+END
+Request.pm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/system/!svn/ver/7107/branches/ghe3_dev/webwork2/lib/WeBWorK/Request.pm
+END
+Cookie.pm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WeBWorK/Cookie.pm
+END
+Authz.pm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/system/!svn/ver/7107/branches/ghe3_dev/webwork2/lib/WeBWorK/Authz.pm
+END
+Constants.pm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/system/!svn/ver/7133/branches/ghe3_dev/webwork2/lib/WeBWorK/Constants.pm
+END
+URLPath.pm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/lib/WeBWorK/URLPath.pm
+END
+Utils.pm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/system/!svn/ver/7107/branches/ghe3_dev/webwork2/lib/WeBWorK/Utils.pm
+END
+ContentGenerator.pm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/system/!svn/ver/7051/branches/ghe3_dev/webwork2/lib/WeBWorK/ContentGenerator.pm
+END
+Localize.pm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/system/!svn/ver/7109/branches/ghe3_dev/webwork2/lib/WeBWorK/Localize.pm
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/conf/templates/math
+END
+math.css
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/conf/templates/math/math.css
+END
+gateway.template
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/conf/templates/math/gateway.template
+END
+system.template
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/system/!svn/ver/7069/branches/ghe3_dev/webwork2/conf/templates/math/system.template
+END

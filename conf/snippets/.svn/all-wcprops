@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/conf/snippets
+END
+setHeader.pg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/conf/snippets/setHeader.pg
+END
+hardcopySetFooter.pg
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/system/!svn/ver/6956/branches/ghe3_dev/webwork2/conf/snippets/hardcopySetFooter.pg
+END

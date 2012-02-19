@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/system/!svn/ver/7131/branches/ghe3_dev/webwork2/lib
+END
+WWSafe.pm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WWSafe.pm
+END
+WebworkClient.pm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/system/!svn/ver/6996/branches/ghe3_dev/webwork2/lib/WebworkClient.pm
+END
+WebworkWebservice.pm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/system/!svn/ver/7096/branches/ghe3_dev/webwork2/lib/WebworkWebservice.pm
+END
+WeBWorK.pm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/system/!svn/ver/7107/branches/ghe3_dev/webwork2/lib/WeBWorK.pm
+END
+WebworkSOAP.pm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/system/!svn/ver/6812/branches/ghe3_dev/webwork2/lib/WebworkSOAP.pm
+END

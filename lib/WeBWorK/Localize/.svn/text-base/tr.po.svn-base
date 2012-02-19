@@ -1,0 +1,1842 @@
+
+#
+msgid "Add to which set?"
+msgstr "tr: Add to which set?"
+
+#
+msgid "Viewing temporary file: "
+msgstr "Geçici dosya görüntüleniyor: "
+
+#
+msgid "Change Email Address"
+msgstr "E-posta Adresi Değiştir"
+
+#
+msgid "At least one of the answers above is NOT [_1]correct."
+msgstr "Yanıtların en az bir tanesi %1doğru değil."
+
+#
+msgid "Please enter your username and password for [_1] below:"
+msgstr "Lütfen %1 dersi için kullanici adi ve sifrenizi giriniz:"
+
+#
+msgid "Results of last action performed"
+msgstr "tr: Results of last action performed"
+
+#
+msgid "Course Information for course [_1]"
+msgstr "tr: Course Information for course %1"
+
+#
+msgid "report bugs in this problem"
+msgstr "tr: report bugs in this problem"
+
+#
+msgid "Users sorted by [_1], then by [_2], then by [_3]"
+msgstr "tr: Users sorted by %1, then by %2, then by %3"
+
+#
+msgid "Password"
+msgstr "Sifre"
+
+#
+msgid "Problem [_1]"
+msgstr "Soru %1"
+
+#
+msgid "You cannot delete yourself!"
+msgstr "tr: You cannot delete yourself!"
+
+#
+msgid "First Name"
+msgstr "tr: First Name"
+
+#
+msgid "You have attempted this problem [quant,_1,time,times]."
+msgstr "Bu soru için [quant,_1,deneme hakkı,deneme hakkı] kullandınız."
+
+#
+msgid "[_1]'s New Password"
+msgstr "%1 için Yeni Şifre"
+
+#
+msgid "Cancel Password"
+msgstr "tr: Cancel Password"
+
+#
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#
+msgid "Submit Answers for [_1]"
+msgstr "%1 için Yanıtları Gönder"
+
+#
+msgid "Note"
+msgstr "tr: Note"
+
+#
+msgid "[_1] users replaced, [_2] users added, [_3] users skipped. Skipped Users: ([_4])"
+msgstr "tr: %1 users replaced, %2 users added, %3 users skipped.  Skipped users: (%4)"
+
+#
+msgid "WeBWorK"
+msgstr "WeBWorK"
+
+#
+msgid "Reduced Credit Starts: [_1]"
+msgstr "tr: Reduced Credit Starts: %1"
+
+#
+msgid "Delete how many?"
+msgstr "tr: Delete how many?"
+
+#
+msgid "Audit"
+msgstr "tr: Enrolled"
+
+#
+msgid "Hardcopy Header for set [_1]"
+msgstr "tr: Hardcopy Header for set %1"
+
+#
+msgid "Report bugs in a WeBWorK question/problem using this link. The very first time you do this you will need to register with an email address so that information on the bug fix can be reported back to you."
+msgstr "tr: Report bugs in a WeBWorK question/problem using this link. The very first time you do this you will need to register with an email address so that information on the bug fix can be reported back to you."
+
+#
+msgid "navPrev"
+msgstr "tr:&nbspPrev"
+
+#
+msgid "Reduced Credit Disabled"
+msgstr "tr: Reduced Credit Disabled"
+
+#
+msgid "All visible sets [_1] all students"
+msgstr "tr: All visible sets %1 all students"
+
+#
+msgid "Pad Fields"
+msgstr "tr: Pad Fields"
+
+#
+msgid "time"
+msgstr "deneme hakkı"
+
+#
+msgid "Download PDF or TeX Hardcopy for Current Set"
+msgstr "tr: Download PDF or TeX Hardcopy for Current Set"
+
+#
+msgid "Set Header for set [_1]"
+msgstr "tr: Set Header for set %1"
+
+#
+msgid "Problems"
+msgstr "Sorular"
+
+#
+msgid "Statistics for [_1]"
+msgstr "tr: Statistics for %1"
+
+#
+msgid "Filter"
+msgstr "tr: Filter"
+
+#
+msgid "Edit which sets?"
+msgstr "tr: Edit which sets?"
+
+#
+msgid "set [_1]/problem [_2]"
+msgstr "tr: set %1/problem %2"
+
+#
+msgid "Select all users"
+msgstr "tr: Select all users"
+
+#
+msgid "You are not authorized to modify problems."
+msgstr "tr: You are not authorized to modify problems."
+
+#
+msgid "hardcopy header file"
+msgstr "tr: hardcopy header file"
+
+#
+msgid "Write permissions have not been enabled in the templates directory.  No changes can be made."
+msgstr "tr: Write permissions have not been enabled in the templates directory.  No changes can be made."
+
+#
+msgid "Edit Assigned Users"
+msgstr "tr: Edit Assigned Users"
+
+#
+msgid "Save [_1] and View"
+msgstr "tr: Save %1 and View"
+
+#
+msgid "navPrevGrey"
+msgstr "tr:&nbspPrev"
+
+#
+msgid "Show Past Answers"
+msgstr "Önceki Yanıtları Göster"
+
+#
+msgid "attempts"
+msgstr "deneme hakkı"
+
+#
+msgid "Create"
+msgstr "tr: Create"
+
+#
+msgid "Changes in this file have not yet been permanently saved."
+msgstr "tr: Changes in this file have not yet been permanently saved."
+
+#
+msgid "Instructor Tools"
+msgstr "Eğitmen Araçları"
+
+#
+msgid "Failed to duplicate set: no set selected for duplication!"
+msgstr "tr: Failed to duplicate set: no set selected for duplication!"
+
+#
+msgid "Score"
+msgstr "Not"
+
+#
+msgid "[_1]'s New Address"
+msgstr "%1 için Yeni Adres"
+
+#
+msgid "export abandoned"
+msgstr "tr: export abandoned"
+
+#
+msgid "Set Info"
+msgstr "tr: Set Info"
+
+#
+msgid "showing matching users"
+msgstr "tr: showing matching users"
+
+#
+msgid "Show in another window"
+msgstr "tr: Show in another window"
+
+#
+msgid "This homework set contains no problems."
+msgstr "Bu soru grubunda soru bulunmamaktadır."
+
+#
+msgid "Welcome to WeBWorK!"
+msgstr "WeBWorK sitemize hoşgeldiniz!"
+
+#
+msgid "Copied auxiliary files from [_1] to  new location at [_2]"
+msgstr "tr: Copied auxiliary files from %1 to  new location at %2"
+
+#
+msgid "Unpublished"
+msgstr "Yayınlanmadı"
+
+#
+msgid "[_1]'s Current Address"
+msgstr "%1 için Mevcut Adres"
+
+#
+msgid "Choose visibility of the sets to be affected"
+msgstr "tr: Choose visibility of the sets to be affected"
+
+#
+msgid "Login"
+msgstr "Devam et"
+
+#
+msgid "deleted [_1] users"
+msgstr "tr: deleted %1 users"
+
+#
+msgid "Any changes made below will be reflected in the set for ALL students."
+msgstr "tr: Any changes made below will be reflected in the set for ALL students."
+
+#
+msgid "Show Which Users?"
+msgstr "tr: Show Which Users?"
+
+#
+msgid "Email"
+msgstr "E-posta"
+
+#
+msgid "Replace which users?"
+msgstr "tr: Replace which users?"
+
+#
+msgid "Enable/Disable reduced scoring for selected sets"
+msgstr "tr: Enable/Disable reduced scoring for selected sets"
+
+#
+msgid "correct"
+msgstr "doğru"
+
+#
+msgid "Can't get password record for effective user '[_1]': [_2]"
+msgstr "Can't get password record for effective user '%1': %2"
+
+#
+msgid "Add how many students?"
+msgstr "tr: Add how many students?"
+
+#
+msgid "Export which users?"
+msgstr "tr: Export which users?"
+
+#
+msgid "File Manager"
+msgstr "Dosya Yöneticisi"
+
+#
+msgid "Unable to change the hardcopy header for set [_1]. Unknown error."
+msgstr "tr: Unable to change the hardcopy header for set %1. Unknown error."
+
+#
+msgid "Unable to make '[_1]' the set header for [_2]"
+msgstr "tr: Unable to make '%1' the set header for %2"
+
+#
+msgid "_CLASSLIST_EDITOR_DESCRIPTION"
+msgstr "tr: This is the classlist editor page, where you can view and edit the records of all the students currently enrolled in this course.  The top of the page contains forms which allow you to filter which students to view, sort your students in a chosen order, edit student records, give new passwords to students, import/export student records from/to external files, or add/delete students.  To use, please select the action you would like to perform, enter in the relevant information in the fields below, and hit the "Take Action!" button at the bottom of the form.  The bottom of the page contains a table containing the student usernames and their information."
+
+#
+msgid "Can't determine user of temporary edit file [_1]."
+msgstr "tr: Can't determine user of temporary edit file %1."
+
+#
+msgid "Download a hardcopy of this homework set."
+msgstr "Bu soru grubunu basılı halde indirin."
+
+#
+msgid "New passwords saved"
+msgstr "tr: New passwords saved"
+
+#
+msgid "Problem Editor"
+msgstr "Soru Düzenleyici"
+
+#
+msgid "Invalid user ID or password."
+msgstr "Yanlış kullanıcı adı ya da şifre."
+
+#
+msgid "The file '[_1]' is protected!"
+msgstr "tr: The file '%1' is protected!"
+
+#
+msgid "Couldn't change your email address: [_1]"
+msgstr "E-posta adresiniz değiştirilemedi: %1"
+
+#
+msgid "visible users"
+msgstr "tr: visible users"
+
+#
+msgid "Top level of author information on the wiki."
+msgstr "tr: Top level of author information on the wiki."
+
+#
+msgid "Email instructor"
+msgstr "Eğitmene E-posta"
+
+#
+msgid "Sort by [_1] and then by [_2]"
+msgstr "tr: Sort by %1 and then by %2"
+
+#
+msgid "You have [_1] [_2] remaining."
+msgstr "%1 %2 kaldı."
+
+#
+msgid "Failed to create new set: no set name specified!"
+msgstr "tr: Failed to create new set: no set name specified!"
+
+#
+msgid "Score selected set(s) and save to:"
+msgstr "tr: Score selected set(s) and save to:"
+
+#
+msgid "Save Password"
+msgstr "tr: Save Password"
+
+#
+msgid "Add which new users?"
+msgstr "tr: Add which new users?"
+
+#
+msgid "[_1] (test [_2])"
+msgstr "tr: %1 (test %2)"
+
+#
+msgid "Previous Problem"
+msgstr "Önceki Soru"
+
+#
+msgid "Assign this set to which users?"
+msgstr "tr: Assign this set to which users?"
+
+#
+msgid "The file '[_1]' is a blank problem!"
+msgstr "tr: The file '%1' is a blank problem!"
+
+#
+msgid "Import from where?"
+msgstr "tr: Import from where?"
+
+#
+msgid "Library Browser"
+msgstr "Soru Kütüphaneleri"
+
+#
+msgid "Take [_1] test"
+msgstr "tr: Take %1 test"
+
+#
+msgid "Add as what filetype?"
+msgstr "tr: Add as what filetype?"
+
+#
+msgid "no action"
+msgstr "tr: no action"
+
+#
+msgid "Guest Login"
+msgstr "tr: Guest Login"
+
+#
+msgid "Added '[_1]' to [_2] as new set header"
+msgstr "tr: Added '%1' to %2 as new set header"
+
+#
+msgid "Use System Default"
+msgstr "tr: Use System Default"
+
+#
+msgid "View statistics by set"
+msgstr "tr: View statistics by set"
+
+#
+msgid "Set"
+msgstr "Soru Grubu"
+
+#
+msgid "No sets selected for scoring"
+msgstr "tr: No sets selected for scoring"
+
+#
+msgid "showing all users"
+msgstr "tr: showing all users"
+
+#
+msgid "Failed to duplicate set: set [_1] already exists!"
+msgstr "tr: Failed to duplicate set: set %1 already exists!"
+
+#
+msgid "This is a blank problem template file and can not be edited directly. Use the 'Save as' action below to create a local copy of the file and add it to the current problem set."
+msgstr "tr: This is a blank problem template file and can not be edited directly. Use the 'Save as' action below to create a local copy of the file and add it to the current problem set."
+
+#
+msgid "Match on what? (separate multiple IDs with commas)"
+msgstr "tr: Match on what? (separate multiple IDs with commas)"
+
+#
+msgid "Logout"
+msgstr "Çıkış"
+
+#
+msgid "No sets shown.  Choose one of the options above to list the sets in the course."
+msgstr "tr: No sets shown.  Choose one of the options above to list the sets in the course."
+
+#
+msgid "hidden sets"
+msgstr "tr: hidden sets"
+
+#
+msgid "giving new passwords to selected users"
+msgstr "tr: giving new passwords to selected users"
+
+#
+msgid "You do not have permission to view the details of this error."
+msgstr "Bu hatanın detaylarını görmeye yetkiniz yok."
+
+#
+msgid "Reverting to original file '[_1]'"
+msgstr "tr: Reverting to original file '%1'"
+
+#
+msgid "Delete"
+msgstr "tr: Delete"
+
+#
+msgid "editing selected users"
+msgstr "tr: editing selected users"
+
+#
+msgid "Wiki summary page for MathObjects"
+msgstr "tr: Wiki summary page for MathObjects"
+
+#
+msgid "[_1]: Problem [_2]."
+msgstr "%1: Soru %2."
+
+#
+msgid "Answer Preview"
+msgstr "Gösterim"
+
+#
+msgid "Preview Answers"
+msgstr "Yanıtları görüntüle"
+
+#
+msgid "editing selected sets"
+msgstr "tr: editing selected sets"
+
+#
+msgid "Your score was recorded."
+msgstr "Notunuz kaydedildi."
+
+#
+msgid "You must specify an file name in order to save a new file."
+msgstr "tr: You must specify an file name in order to save a new file."
+
+#
+msgid "Export selected sets"
+msgstr "tr: Export selected sets"
+
+#
+msgid "Stop Acting"
+msgstr "Rol Yapmayı bırak"
+
+#
+msgid "What field should filtered users match on?"
+msgstr "tr: What field should filtered users match on?"
+
+#
+msgid "No change made to any set"
+msgstr "tr: No change made to any set"
+
+#
+msgid "Hidden"
+msgstr "tr: Hidden"
+
+#
+msgid "To edit this text you must first make a copy of this file using the 'Save as' action below."
+msgstr "tr: To edit this text you must first make a copy of this file using the 'Save as' action below."
+
+#
+msgid "unassigned problem file"
+msgstr "tr: unassigned problem file"
+
+#
+msgid "showing all sets"
+msgstr "tr: showing all sets"
+
+#
+msgid "Your overall recorded score is [_1].  [_2]"
+msgstr "Ortalama puanınız: %1.  %2"
+
+#
+msgid "View statistics by student"
+msgstr "tr: View statistics by student"
+
+#
+msgid "Visible"
+msgstr "tr: Visible"
+
+#
+msgid "Publish"
+msgstr "tr: Publish"
+
+#
+msgid "Password/Email"
+msgstr "Şifre/E-posta"
+
+#
+msgid "Warning: Deletion destroys all user-related data and is not undoable!"
+msgstr "tr: Warning: Deletion destroys all user-related data and is not undoable!"
+
+#
+msgid "Homework Sets"
+msgstr "Soru Grupları"
+
+#
+msgid "Showing [_1] out of [_2] users"
+msgstr "tr: Showing %1 out of %2 users"
+
+#
+msgid "Cancel Edit"
+msgstr "tr: Cancel Edit"
+
+#
+msgid "Math Objects"
+msgstr "tr: Math Objects"
+
+#
+msgid "Show correct answers"
+msgstr "Doğru yanıtları göster"
+
+#
+msgid "Snippets of PG code illustrating specific techniques"
+msgstr "tr: Snippets of PG code illustrating specific techniques"
+
+#
+msgid "Error copying [_1] to [_2]"
+msgstr "tr: Error copying %1 to %2"
+
+#
+msgid "Hmwk Sets Editor"
+msgstr "Ödev Setleri Düzenleyici"
+
+#
+msgid "Couldn't change [_1]'s password: [_2]"
+msgstr "%1 adlı kullanıcının şifresi değiştirilemedi: %2"
+
+#
+msgid "This set is [_1] students."
+msgstr "Bu soru grubu öğrenciler tarafından %1."
+
+#
+msgid "navProbListGrey"
+msgstr "tr:&nbspUp"
+
+#
+msgid "now open, due "
+msgstr "açık, bitiş tarihi: "
+
+#
+msgid "header file"
+msgstr "tr: header file"
+
+#
+msgid "Include Index"
+msgstr "tr: Include Index"
+
+#
+msgid "Enrollment Status"
+msgstr "tr: Enrollment Status"
+
+#
+msgid "Display Mode"
+msgstr "tr: Display Mode"
+
+#
+msgid "You can earn partial credit on this problem."
+msgstr "Bu sorudan kısmi puan alabilirsiniz."
+
+#
+msgid "Filter by what text?"
+msgstr "tr: Filter by what text?"
+
+#
+msgid "Write permissions have not been enabled in '[_1]'.  Changes must be saved to a different directory for viewing."
+msgstr "tr: Write permissions have not been enabled in '%1'.  Changes must be saved to a different directory for viewing."
+
+#
+msgid "Name"
+msgstr "Grup Adı"
+
+#
+msgid "navUp"
+msgstr "tr:&nbspUp"
+
+#
+msgid "_GUEST_LOGIN_MESSAGE"
+msgstr "tr: This course supports guest logins. Click %1 to log into this course as a guest."
+
+#
+msgid "enter matching set IDs below"
+msgstr "tr: enter matching set IDs below"
+
+#
+msgid "blank problem"
+msgstr "tr: blank problem"
+
+#
+msgid "Save Edit"
+msgstr "tr: Save Edit"
+
+#
+msgid "Enrolled"
+msgstr "tr: Enrolled"
+
+#
+msgid "Show which sets?"
+msgstr "tr: Show which sets?"
+
+#
+msgid "Write permissions have not been enabled for '[_1]'.  Changes must be saved to another file for viewing."
+msgstr "tr: Write permissions have not been enabled for '%1'.  Changes must be saved to another file for viewing."
+
+#
+msgid "Note: this problem viewer is for viewing purposes only. As of right now, testing functionality is not possible."
+msgstr "tr: Note: this problem viewer is for viewing purposes only. As of right now, testing functionality is not possible."
+
+#
+msgid "navProbList"
+msgstr "tr:&nbspUp"
+
+#
+msgid "Your session has timed out due to inactivity. Please log in again."
+msgstr "Oturumunuz zaman aşımına uğradı. Lütfen tekrar giriş yapınız."
+
+#
+msgid "Save Export"
+msgstr "tr: Save Export"
+
+#
+msgid "visible sets"
+msgstr "tr: visible sets"
+
+#
+msgid "will open on [_1]"
+msgstr "%1 tarihinde açılacak"
+
+#
+msgid "a duplicate of the first selected set"
+msgstr "tr: a duplicate of the first selected set"
+
+#
+msgid "webwork"
+msgstr "webwork"
+
+#
+msgid "Show/Hide Site Description"
+msgstr "tr: Show/Hide Site Description"
+
+#
+msgid "Result of last action performed: [_1]"
+msgstr "tr: Result of last action performed: %1"
+
+#
+msgid "Download Hardcopy for Selected [plural,_1,Set,Sets]"
+msgstr "Seçili Setleri Yazdır: [plural,_1,Set,Sets]"
+
+#
+msgid "The selected problem set ([_1]) is not a valid set for [_2]"
+msgstr "tr: The selected problem set (%1) is not a valid set for %2"
+
+#
+msgid "All selected sets [_1] all students"
+msgstr "tr: All selected sets %1 all students"
+
+#
+msgid "Log In Again"
+msgstr "Tekrar giriş yap"
+
+#
+msgid "Problem Viewer"
+msgstr "tr: Problem Viewer"
+
+#
+msgid "visible to students"
+msgstr "tr: visible to students"
+
+#
+msgid "unlimited"
+msgstr "sınırsız"
+
+#
+msgid "Take Action!"
+msgstr "tr: Take Action!"
+
+#
+msgid "submit button clicked"
+msgstr "gönder düğmesine basıldı"
+
+#
+msgid "showing no sets"
+msgstr "tr: showing no sets"
+
+#
+msgid "Score which sets?"
+msgstr "tr: Score which sets?"
+
+#
+msgid "Export which sets?"
+msgstr "tr: Export which sets?"
+
+#
+msgid "Student Progress for [_1]"
+msgstr "tr: Student Progress for %1"
+
+#
+msgid "showing selected sets"
+msgstr "tr: showing selected sets"
+
+#
+msgid "[_1] users exported to file [_2]/[_3]"
+msgstr "tr: %1 users exported to file %2/%3"
+
+#
+msgid "A new file has been created at '[_1]' with the contents below. No changes have been made to set [_2]."
+msgstr "tr: A new file has been created at '%1' with the contents below. No changes have been made to set %2."
+
+#
+msgid "completely"
+msgstr "tr: completely"
+
+#
+msgid "Entered"
+msgstr "Yanıt"
+
+#
+msgid "Your score was not recorded because this problem has not been assigned to you."
+msgstr "Notunuz kaydedilmedi çünkü bu soru size yöneltilmedi."
+
+#
+msgid "Sort"
+msgstr "tr: Sort"
+
+#
+msgid "Closed"
+msgstr "tr: Closed"
+
+#
+msgid "giving new passwords to visible users"
+msgstr "tr: giving new passwords to visible users"
+
+#
+msgid "Set Header"
+msgstr "tr: Set Header"
+
+#
+msgid "exporting visible sets"
+msgstr "tr: exporting visible sets"
+
+#
+msgid "Checking additional error messages"
+msgstr "tr: Checking additional error messages"
+
+#
+msgid "Show Hints"
+msgstr "İpuçlarını göster"
+
+#
+msgid "Give new password to which users?"
+msgstr "tr: Give new password to which users?"
+
+#
+msgid "Add problem"
+msgstr "tr: Add problem"
+
+#
+msgid "Unselect all sets"
+msgstr "tr: Unselect all sets"
+
+#
+msgid "Submit Answers"
+msgstr "Yanıtları Gönder"
+
+#
+msgid "Continue"
+msgstr "tr: Continue"
+
+#
+msgid "You have [negquant,_1,unlimited attempts,attempt,attempts] remaining."
+msgstr "[negquant,_1,Sınırsız deneme hakkı,deneme hakkı,deneme hakkı] kaldı."
+
+#
+msgid "You are not authorized to modify homework sets."
+msgstr "tr: You are not authorized to modify homework sets."
+
+#
+msgid "exporting all sets"
+msgstr "tr: exporting all sets"
+
+#
+msgid "Author Info"
+msgstr "tr: Author Info"
+
+#
+msgid "[_1]'s password has been changed."
+msgstr "%1 adlı kullanıcının şifresi değiştirildi."
+
+#
+msgid "Replace [_1]"
+msgstr "tr: Replace %1"
+
+#
+msgid "Save changes"
+msgstr "tr: Save changes"
+
+#
+msgid "Site Information"
+msgstr "tr: Site Information"
+
+#
+msgid "Logged in as [_1]. "
+msgstr "%1 olarak giriş yaptınız."
+
+#
+msgid "closed, answers available"
+msgstr "kapalı, cevaplar açıklandı"
+
+#
+msgid "The answer above is correct."
+msgstr "Yukarıdaki yanıt doğru."
+
+#
+msgid "Worth"
+msgstr "Değeri"
+
+#
+msgid "Help"
+msgstr "tr: Help"
+
+#
+msgid "Permission Level"
+msgstr "tr: Permission Level"
+
+#
+msgid "deleted [_1] sets"
+msgstr "tr: deleted %1 sets"
+
+#
+msgid "Add Users"
+msgstr "Kullanıcı Ekle"
+
+#
+msgid "over time: closed."
+msgstr "süre bitti: kapalı."
+
+#
+msgid "Problem Source Code"
+msgstr "tr: Problem Source Code"
+
+#
+msgid "editing all users"
+msgstr "tr: editing all users"
+
+#
+msgid "editing all sets"
+msgstr "tr: editing all sets"
+
+#
+msgid "all users"
+msgstr "tr: all users"
+
+#
+msgid "Abandon export"
+msgstr "tr: Abandon export"
+
+#
+msgid "Active"
+msgstr "tr: Active"
+
+#
+msgid "Test snippets of PG code in interactive lab.  Good way to learn PG language."
+msgstr "tr: Test snippets of PG code in interactive lab.  Good way to learn PG language."
+
+#
+msgid "Show Solutions"
+msgstr "Çözümleri göster"
+
+#
+msgid "Student ID"
+msgstr "tr: Student ID"
+
+#
+msgid "Page generated at [_1] at [_2]"
+msgstr "tr: Page generated at %1 at %2"
+
+#
+msgid "Enter filenames below"
+msgstr "tr: Enter filenames below"
+
+#
+msgid "Import"
+msgstr "tr: Import"
+
+#
+msgid "Not logged in."
+msgstr "Giriş yapmadınız."
+
+#
+msgid "View Using Seed Number"
+msgstr "tr: View Using Seed Number"
+
+#
+msgid "Yes"
+msgstr "tr: Yes"
+
+#
+msgid "Enable"
+msgstr "tr: Enable"
+
+#
+msgid "Login Name"
+msgstr "tr: Login Name"
+
+#
+msgid "_LOGIN_MESSAGE"
+msgstr " Eğer %1 seçeneğini işaretlerseniz, giriş bilgileriniz kullandığınız tarayıcı tarafından hatırlanacak ve sonraki girişlerinizde kullanıcı adı ve şifre girmeden WebWork sayfalarını kullanabileceksiniz. Bu özellik, ortak kullanıma açık bilgisayarlar, güvenli olmayan bilgisayarlar, ve doğrudan kontrole sahip olmadığınız bilgisayarlarda kullanmak için güvenli değildir."
+
+#
+msgid "showing selected users"
+msgstr "tr: showing selected users"
+
+#
+msgid "You have been logged out of WeBWorK."
+msgstr "WeBWorK sisteminden çıkış yaptınız."
+
+#
+msgid "Section"
+msgstr "tr: Section"
+
+#
+msgid "Showing [_1] out of [_2] sets."
+msgstr "tr: Showing %1 out of %2 sets."
+
+#
+msgid "Grades"
+msgstr "Notlar"
+
+#
+msgid "Published"
+msgstr "Yayınlandı"
+
+#
+msgid "You are not authorized to perform this action."
+msgstr "tr: You are not authorized to perform this action."
+
+#
+msgid "Set Name"
+msgstr "tr: Set Name"
+
+#
+msgid "Your score was not recorded because this homework set is closed."
+msgstr "Notunuz kaydedilemedi çünkü bu soru grubu kapalı."
+
+#
+msgid "PREVIEW ONLY -- ANSWERS NOT RECORDED"
+msgstr "GÖSTERİM -- YANITLAR KAYDEDİLMEDİ "
+
+#
+msgid "The passwords you entered in the [_1] and [_2] fields don't match. Please retype your new password and try again."
+msgstr "%1 ve %2  alanlarına girdiğiniz şifreler uyuşmadı. Yeni şifrenizi girerek tekrar deneyiniz."
+
+#
+msgid "_HMWKSETS_EDITOR_DESCRIPTION"
+msgstr "tr: This is the homework sets editor page where you can view and edit the homework sets that exist in this course and the problems that they contain. The top of the page contains forms which allow you to filter which sets to display in the table, sort the sets in a chosen order, edit homework sets, publish homework sets, import/export sets from/to an external file, score sets, or create/delete sets.  To use, please select the action you would like to perform, enter in the relevant information in the fields below, and hit the "Take Action!" button at the bottom of the form.  The bottom of the page contains a table displaying the sets and several pieces of relevant information."
+
+#
+msgid "Clear"
+msgstr "tr: Clear"
+
+#
+msgid "Page generated at [_1]"
+msgstr "tr: Page generated at %1"
+
+#
+msgid "No"
+msgstr "tr: No"
+
+#
+msgid "closed, answers recently available"
+msgstr "kapalı, cevaplar yeni açıklandı"
+
+#
+msgid "Success"
+msgstr "tr: Success"
+
+#
+msgid "The text box now contains the source of the original problem. You can recover lost edits by using the Back button on your browser."
+msgstr "tr: The text box now contains the source of the original problem. You can recover lost edits by using the Back button on your browser."
+
+#
+msgid "multiple sets"
+msgstr "tr: multiple sets"
+
+#
+msgid "The file '[_1]' is a directory!"
+msgstr "tr: The file '%1' is a directory!"
+
+#
+msgid "Last Name"
+msgstr "tr: Last Name"
+
+#
+msgid "Disable"
+msgstr "tr: Disable"
+
+#
+msgid "Save As"
+msgstr "tr: Save As [TMPL]/"
+
+#
+msgid "Export to what kind of file?"
+msgstr "tr: Export to what kind of file?"
+
+#
+msgid "You are not authorized to access the instructor tools."
+msgstr "tr: You are not authorized to access the instructor tools."
+
+#
+msgid "Documentation from source code for PG modules and macro files. Often the most up-to-date information."
+msgstr "tr: Documentation from source code for PG modules and macro files. Often the most up-to-date information."
+
+#
+msgid "Then by"
+msgstr "tr: Then by"
+
+#
+msgid "Confirm [_1]'s New Password"
+msgstr "%1 için Şifre Onayı"
+
+#
+msgid "Remember Me"
+msgstr "tr: Remember Me"
+
+#
+msgid "Problem Techniques"
+msgstr "tr: Problem Techniques"
+
+#
+msgid "Course Configuration"
+msgstr "Ders Seçenekleri"
+
+#
+msgid "closed, answers on [_1]"
+msgstr "kapalı, cevaplar %1 tarihinde"
+
+#
+msgid "Edit All Set Data"
+msgstr "tr: Edit All Set Data"
+
+#
+msgid "Feedback"
+msgstr "Geri Bildirim"
+
+#
+msgid "Export"
+msgstr "tr: Export"
+
+#
+msgid "PG mark down syntax used to format WeBWorK questions. This interactive lab can help you to learn the techniques."
+msgstr "tr: PG mark down syntax used to format WeBWorK questions. This interactive lab can help you to learn the techniques."
+
+#
+msgid "This homework set is closed."
+msgstr "Bu soru grubu kapalı."
+
+#
+msgid "a new empty set"
+msgstr "tr: a new empty set"
+
+#
+msgid "Edit Which Users?"
+msgstr "tr: Edit Which Users?"
+
+#
+msgid "Status"
+msgstr "Durumu"
+
+#
+msgid "Record Scores for Single Sets"
+msgstr "tr: Record Scores for Single Sets"
+
+#
+msgid "Duplicate this set and name it"
+msgstr "tr: Duplicate this set and name it"
+
+#
+msgid "navNext"
+msgstr "tr:&nbspNext"
+
+#
+msgid "Append to end of set [_1]"
+msgstr "tr: Append to end of set %1"
+
+#
+msgid "Unrecognized saveMode: |[_1]|. Unknown error."
+msgstr "tr: Unrecognized saveMode: |%1|. Unknown error."
+
+#
+msgid "Your score was not recorded because there was a failure in storing the problem record to the database."
+msgstr "Notunuz kaydedilemedi, çünkü notun veritabanına kaydı sırasında bir hata oluştu."
+
+#
+msgid "The hardcopy header for set [_1] has been renamed to '[_2]'."
+msgstr "tr: The hardcopy header for set %1 has been renamed to '%2'."
+
+#
+msgid "Username"
+msgstr "Kullanici adi"
+
+#
+msgid "no sets"
+msgstr "tr: no sets"
+
+#
+msgid "Save as"
+msgstr "tr: Save as"
+
+#
+msgid "Sort by"
+msgstr "tr: Sort by"
+
+#
+msgid "Can't get password record for user '[_1]': [_2]"
+msgstr "Can't get password record for user '%1': %2"
+
+#
+msgid "You must specify a user ID."
+msgstr "Bir kullanıcı adı girmelisiniz."
+
+#
+msgid "Select action below"
+msgstr "tr: Select action below"
+
+#
+msgid "If a password field is left blank, the student's current password will be maintained."
+msgstr "tr: If a password field is left blank, the student's current password will be maintained."
+
+#
+msgid "hidden from students"
+msgstr "tr: hidden from students"
+
+#
+msgid "Report bugs"
+msgstr "Hataları bildir"
+
+#
+msgid "The file '[_1]' cannot be found."
+msgstr "tr: The file '%1' cannot be found."
+
+#
+msgid "Edit"
+msgstr "tr: Edit"
+
+#
+msgid "The answer above is NOT [_1]correct."
+msgstr "Yukarıdaki yanıt %1doğru değil."
+
+#
+msgid "any users"
+msgstr "tr: any users"
+
+#
+msgid "Attempts"
+msgstr "Deneme sayısı"
+
+#
+msgid "Reduced Credit [_1] for selected sets"
+msgstr "tr: Reduced Credit %1 for selected sets"
+
+#
+msgid "Unable to write to '[_1]': [_2]"
+msgstr "tr: Unable to write to '%1': %2"
+
+#
+msgid "This problem will not count towards your grade."
+msgstr "Bu soru, notunuzu etkilemeyecektir."
+
+#
+msgid "Save"
+msgstr "tr: Save"
+
+#
+msgid "[_1] sets exported, [_2] sets skipped. Skipped sets: ([_3])"
+msgstr "tr: %1 sets exported, %2 sets skipped. Skipped sets: (%3)"
+
+#
+msgid "File '[_1]' exists. File not saved. No changes have been made. You can change the file path for this problem manually from the 'Hmwk Sets Editor' page"
+msgstr "
+tr: File '%1' exists. File not saved. No changes have been made. You can change the file path for this problem manually from the 'Hmwk Sets Editor' page"
+
+#
+msgid "a single set"
+msgstr "tr: a single set"
+
+#
+msgid "Test Date"
+msgstr "tr: Test Date"
+
+#
+msgid "The set header for set [_1] has been renamed to '[_2]'."
+msgstr "tr: The set header for set %1 has been renamed to '%2'."
+
+#
+msgid "You do not have permission to change email addresses."
+msgstr "Adres değiştirmek için yetkiniz yok."
+
+#
+msgid "editing visible sets"
+msgstr "tr: editing visible sets"
+
+#
+msgid "Error: This path is already in the temporary edit directory -- no new temporary file is created. path = [_1]"
+msgstr "tr: Error: This path is already in the temporary edit directory -- no new temporary file is created. path = %1"
+
+#
+msgid "Edit Set Data"
+msgstr "tr: Edit Set Data"
+
+#
+msgid "Select all sets"
+msgstr "tr: Select all sets"
+
+#
+msgid "Visibility"
+msgstr "tr: Visibility"
+
+#
+msgid "Please use radio buttons to choose the method for saving this file. Can't recognize saveMode: |[_1]|."
+msgstr "tr: Please use radio buttons to choose the method for saving this file. Can't recognize saveMode: |%1|."
+
+#
+msgid "[_1] test"
+msgstr "tr: %1 test"
+
+#
+msgid "Saved to file '[_1]'"
+msgstr "tr: Saved to file '%1'"
+
+#
+msgid "Viewing temporary file"
+msgstr "tr: Viewing temporary file"
+
+#
+msgid "Please specify a file to save to."
+msgstr "tr: Please specify a file to save to."
+
+#
+msgid "Hardcopy Header"
+msgstr "tr: Hardcopy Header"
+
+#
+msgid "Open Date"
+msgstr "tr: Open Date"
+
+#
+msgid "The selected problem ([_1]) is not a valid problem for set [_2]."
+msgstr "Seçilen problem (%1), %2 soru drubu için geçerli bir soru değil."
+
+#
+msgid "Test Score"
+msgstr "tr: Test Score"
+
+#
+msgid "Editing [_1] in file '[_2]'"
+msgstr "tr: Editing %1 in file '%2'"
+
+#
+msgid "Filename"
+msgstr "tr: Filename"
+
+#
+msgid "Deleting temp file at [_1]"
+msgstr "tr: Deleting temp file at %1"
+
+#
+msgid "Create as what type of set?"
+msgstr "tr: Create as what type of set?"
+
+#
+msgid "New Password"
+msgstr "tr: New Password"
+
+#
+msgid "Enter filename below"
+msgstr "tr: Enter filename below"
+
+#
+msgid "Name the new set"
+msgstr "tr: Name the new set"
+
+#
+msgid "hidden from"
+msgstr "görüntülenmiyor"
+
+#
+msgid "View student progress by set"
+msgstr "tr: View student progress by set"
+
+#
+msgid "Failed to duplicate set: [_1]"
+msgstr "tr: Failed to duplicate set: %1"
+
+#
+msgid "Abandon changes"
+msgstr "tr: Abandon changes"
+
+#
+msgid "Import sets with names"
+msgstr "tr: Import sets with names"
+
+#
+msgid "Remaining"
+msgstr "Kalan hak"
+
+#
+msgid "Select an action to perform"
+msgstr "tr: Select an action to perform"
+
+#
+msgid "_REQUEST_ERROR"
+msgstr " WebWork bu problemi işlerken bir yazılım hatası ile karşılaştı. Problemin kendisinde bir hata olması muhtemeldir. Eğer bir öğrenci iseniz bu hatayı ilgili kişilere bildiriniz. Eğer yetkili bir kişiyseniz daha fazla bilgi için alttaki hata raporunu inceleyiniz."
+
+#
+msgid "[_1]'s new password cannot be blank."
+msgstr "%1 için yeni şifre boş bırakılamaz."
+
+#
+msgid "View"
+msgstr "tr: View"
+
+#
+msgid "Resources"
+msgstr "tr: Resources"
+
+#
+msgid "Scoring Download"
+msgstr "Notları İndir"
+
+#
+msgid "exporting selected sets"
+msgstr "tr: exporting selected sets"
+
+#
+msgid "Duplicate"
+msgstr "tr: Duplicate"
+
+#
+msgid "Your email address has been changed."
+msgstr "E-posta adresiniz değiştirildi."
+
+#
+msgid "changes saved"
+msgstr "tr: changes saved"
+
+#
+msgid "This path |[_1]| is not the path to a temporary edit file."
+msgstr "tr: This path |%1| is not the path to a temporary edit file."
+
+#
+msgid "You are not authorized to modify set definition files."
+msgstr "tr: You are not authorized to modify set definition files."
+
+#
+msgid "Unselect all users"
+msgstr "tr: Unselect all users"
+
+#
+msgid "navNextGrey"
+msgstr "tr:&nbspNext"
+
+#
+msgid "visible to"
+msgstr "görüntüleniyor"
+
+#
+msgid "giving new passwords to all users"
+msgstr "tr: giving new passwords to all users"
+
+#
+msgid "Correct"
+msgstr "Doğru yanıt"
+
+#
+msgid "Unable to change the source file path for set [_1], problem [_2]. Unknown error."
+msgstr "tr: Unable to change the source file path for set %1, problem %2. Unknown error."
+
+#
+msgid "Failed to duplicate set: no set name specified!"
+msgstr "tr: Failed to duplicate set: no set name specified!"
+
+#
+msgid "Sets"
+msgstr "tr: Sets"
+
+#
+msgid "incorrect"
+msgstr "yanlış"
+
+#
+msgid "showing no users"
+msgstr "tr: showing no users"
+
+#
+msgid "Display Options"
+msgstr "tr: Display Options"
+
+#
+msgid "Course Administration"
+msgstr "Ders Yönetimi"
+
+#
+msgid "Added [_1] to [_2] as problem [_3]"
+msgstr "tr: Added %1 to %2 as problem %3"
+
+#
+msgid "Options Information"
+msgstr "tr: Options Information"
+
+#
+msgid "Apply Options"
+msgstr "tr: Apply Options"
+
+#
+msgid "Proctor"
+msgstr "tr: Proctor"
+
+#
+msgid "Student Progress"
+msgstr "tr: Student Progress"
+
+#
+msgid "Result"
+msgstr "Sonuç"
+
+#
+msgid "Problem List"
+msgstr "Soru Listesi"
+
+#
+msgid "Courses"
+msgstr "Dersler"
+
+#
+msgid "You are not authorized to modify student data."
+msgstr "tr: You are not authorized to modify student data."
+
+#
+msgid "Revert"
+msgstr "tr: Revert"
+
+#
+msgid "You received a score of [_1] for this attempt."
+msgstr "Bu soru için %1 puan aldınız."
+
+#
+msgid "Enable Reduced Credit"
+msgstr "tr: Enable Reduced Credit"
+
+#
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#
+msgid "Log Out"
+msgstr "Çıkış Yap"
+
+#
+msgid "Reduced Credit [_1] for all sets"
+msgstr "tr: Reduced Credit %1 for all sets"
+
+#
+msgid "Edit this problem"
+msgstr "tr: Edit this problem"
+
+#
+msgid "Save as new independent problem"
+msgstr "tr: Save as new independent problem"
+
+#
+msgid "Login Info"
+msgstr "tr: Login Info"
+
+#
+msgid "Scoring Tools"
+msgstr "Notlama Araçları"
+
+#
+msgid "The source file for 'set [_1] / problem [_2]' has been changed from [_3] to '[_4]'."
+msgstr "tr: The source file for 'set %1 / problem %2' has been changed from %3 to '%4'."
+
+#
+msgid "Acting as [_1]. "
+msgstr "%1 gibi davranılıyor."
+
+#
+msgid "ANSWERS ONLY CHECKED -- ANSWERS NOT RECORDED"
+msgstr "YANITLAR SADECE KONTROL EDİLİYOR -- YANITLAR KAYDEDİLMEDİ"
+
+#
+msgid "Messages"
+msgstr "Mesajlar"
+
+#
+msgid "Check Answers"
+msgstr "Yanıtları kontrol et"
+
+#
+msgid "Cancel Export"
+msgstr "tr: Cancel Export"
+
+#
+msgid "View student progress by student"
+msgstr "tr: View student progress by student"
+
+#
+msgid "Reduced Credit [_1] for visable sets"
+msgstr "tr: Reduced Credit %1 for visable sets"
+
+#
+msgid "selected sets"
+msgstr "tr: selected sets"
+
+#
+msgid "_REDUCED_CREDIT_MESSAGE_2"
+msgstr "tr: This assignment had a Reduced Credit Period that began %1 and ended on the due date, %2.  During that period all additional work done counted %3% of the original."
+
+#
+msgid "Email Address"
+msgstr "tr: Email Address"
+
+#
+msgid "times"
+msgstr "deneme hakkı"
+
+#
+msgid "Users List"
+msgstr "tr: Users List"
+
+#
+msgid "Please select action to be performed."
+msgstr "tr: Please select action to be performed."
+
+#
+msgid "no users"
+msgstr "tr: no users"
+
+#
+msgid "You do not have permission to change your password."
+msgstr "Şifre değiştirmek için yetkiniz yok."
+
+#
+msgid "open: complete by [_1]"
+msgstr "açık: %1 tarihine kadar tamamlayın"
+
+#
+msgid "_REDUCED_CREDIT_MESSAGE_1"
+msgstr "tr: This assignment has a Reduced Credit Period that begins %1 and ends on the due date, %2.  During this period all additional work done counts %3% of the original."
+
+#
+msgid "Revert to [_1]"
+msgstr "tr: Revert to %1"
+
+#
+msgid "Set [_1] exists.  No set created"
+msgstr "tr: Set %1 exists.  No set created"
+
+#
+msgid "[quant,_1,of the questions remains,of the questions remain] unanswered."
+msgstr "Soruların %1 tanesi yanıtsız bırakıldı."
+
+#
+msgid "Set List"
+msgstr "tr: Set List"
+
+#
+msgid "_EXTERNAL_AUTH_MESSAGE"
+msgstr "%1 uses an external authentication system.  You've authenticated through that system, but aren't allowed to log in to this course."
+
+#
+msgid "Recitation"
+msgstr "tr: Recitation"
+
+#
+msgid "No students shown.  Choose one of the options above to list the students in the course."
+msgstr "tr: No students shown.  Choose one of the options above to list the students in the course."
+
+#
+msgid "Classlist Editor"
+msgstr "Sınıf Listesi Düzenleyici"
+
+#
+msgid "Import how many sets?"
+msgstr "tr: Import how many sets?"
+
+#
+msgid "attempt"
+msgstr "deneme hakkı"
+
+#
+msgid "All of the answers above are correct."
+msgstr "Yanıtların tümü doğru"
+
+#
+msgid "[_1]'s Current Password"
+msgstr "%1 için Mevcut Şifre"
+
+#
+msgid "Add"
+msgstr "tr: Add"
+
+#
+msgid "the original path to the file is [_1]"
+msgstr "tr: the original path to the file is %1"
+
+#
+msgid "all sets"
+msgstr "tr: all sets"
+
+#
+msgid "Comment"
+msgstr "tr: Comment"
+
+#
+msgid "Change Password"
+msgstr "Şifre Değiştir"
+
+#
+msgid "Next Problem"
+msgstr "Sonraki Soru"
+
+#
+msgid "The WeBWorK Project"
+msgstr "tr: The WeBWorK Project"
+
+#
+msgid "The path to the original file should be absolute"
+msgstr "tr: The path to the original file should be absolute"
+
+#
+msgid "The password you entered in the [_1] field does not match your current password. 
+Please retype your current password and try again."
+msgstr "%1 alanına girdiğiniz şifre ile mevcut şifreniz uyuşmamaktadır. Lütfen şirfenizi girerek tekrar deneyiniz."
+
+#
+msgid "To edit this text you must use the 'Save AS' action below to save it to another file."
+msgstr "tr: To edit this text you must use the 'Save AS' action below to save it to another file."
+
+#
+msgid "This homework set is not yet open."
+msgstr "Bu soru grubu henüz açık değil."
+
+#
+msgid "changes abandoned"
+msgstr "tr: changes abandoned"
+
+#
+msgid "Inactive"
+msgstr "tr: Inactive"
+
+#
+msgid "Problem"
+msgstr "tr: Problem"
+
+#
+msgid "Error: The original file [_1] cannot be read."
+msgstr "tr: Error: The original file %1 cannot be read."
+
+#
+msgid "All sets [_1] all students"
+msgstr "tr: All sets %1 all students"
+
+#
+msgid "~[edit~]"
+msgstr "~[düzenle~]"
+
+#
+msgid "Edit Problems"
+msgstr "tr: Edit Problems"
+
+#
+msgid "You may not change your own password here!"
+msgstr "tr: You may not change your own password here!"
+
+#
+msgid "(This problem will not count towards your grade.)"
+msgstr "(Bu soru notunuzu etkilemeyecektir.)"
+
+#
+msgid "Unable to change the set header for set [_1]. Unknown error."
+msgstr "tr: Unable to change the set header for set %1. Unknown error."
+
+#
+msgid "users who match on selected field"
+msgstr "tr: users who match on selected field"
+
+#
+msgid "Due Date"
+msgstr "tr: Due Date"
+
+#
+msgid "Import users from what file?"
+msgstr "tr: Import users from what file?"
+
+#
+msgid "selected users"
+msgstr "tr: selected users"
+
+#
+msgid "Click on the login name to edit individual problem set data, ~(e.g. due dates~) for these students."
+msgstr "tr: Click on the login name to edit individual problem set data, (e.g. due dates) for these students."
+
+#
+msgid "Download PDF or TeX Hardcopy for Selected Sets"
+msgstr "tr: Download PDF or TeX Hardcopy for Selected Sets"
+
+#
+msgid "options information"
+msgstr "tr: options information"
+
+#
+msgid "The selected problem([_1]) is not a valid problem for set [_2]."
+msgstr "tr: The selected problem(%1) is not a valid problem for set %2."
+
+#
+msgid "This set is [_1]"
+msgstr "tr: This set is %1"
+
+#
+msgid "Choose which sets to be affected"
+msgstr "tr: Choose which sets to be affected"
+
+#
+msgid "Reduced Credit Enabled"
+msgstr "tr: Reduced Credit Enabled"
+
+#
+msgid "Course Info"
+msgstr "Ders bilgileri"
+
+#
+msgid "[_1]% correct"
+msgstr "%1% doğru"
+
+#
+msgid "Unknown file type"
+msgstr "tr: Unknown file type"
+
+#
+msgid "editing visible users"
+msgstr "tr: editing visible users"
+
+#
+msgid "course information"
+msgstr "tr: course information"
+
+#
+msgid "Change User Options"
+msgstr "Kullanıcı bilgilerini güncelle"
+
+#
+msgid "Drop"
+msgstr "tr: Drop"
+
+#
+msgid "Answer Date"
+msgstr "tr: Answer Date"
+
+#
+msgid "_USER_TABLE_SUMMARY"
+msgstr "tr: A table showing all the current users along with several fields of user information. The fields from left to right are: Login Name, Login Status, Assigned Sets, First Name, Last Name, Email Address, Student ID, Enrollment Status, Section, Recitation, Comments, and Permission Level.  Clicking on the links in the column headers will sort the table by the field it corresponds to. The Login Name fields contain checkboxes for selecting the user.  Clicking the link of the name itself will allow you to act as the selected user.  There will also be an image link following the name which will take you to a page where you can edit the selected user's information.  Clicking the emails will allow you to email the corresponding user.  Clicking the links in the entries in the assigned sets columns will take you to a page where you can view and reassign the sets for the selected user."
+
+#
+msgid "_PROBLEM_SET_SUMMARY"
+msgstr "tr: This is a table showing the current Homework sets for this class.  The fields from left to right are: Edit Set Data, Edit Problems, Edit Assigned Users, Visibility to students, Reduced Credit Enabled, Date it was opened, Date it is due, and the Date during which the answers are posted.  The Edit Set Data field contains checkboxes for selection and a link to the set data editing page.  The cells in the Edit Problems fields contain links which take you to a page where you can edit the containing problems, and the cells in the edit assigned users field contains links which take you to a page where you can edit what students the set is assigned to."
